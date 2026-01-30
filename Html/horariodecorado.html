@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Ejercicios con Pseudoselectores</title>
+
+    <link href="estiloshorarios.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<table>
+    <caption><a href="https://ieslaarboleda.es/" target="_blank">HORARIO DE CLASE CURSO 2024-2025</a></caption>
+    <thead>
+    <tr>
+        <th>HORAS</th>
+        <th id="mayuscula">Lunes</th>
+        <th id="mayuscula">Martes</th>
+        <th id="mayuscula">Miércoles</th>
+        <th id="mayuscula">Jueves</th>
+        <th id="mayuscula">Viernes</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>8:00</td>
+        <td rowspan="2">Matemáticas</td>
+        <td>Lengua</td>
+        <td>Inglés</td>
+        <td colspan="2" id="viernes">Ciencias</td>
+    </tr>
+    <tr>
+        <td>9:00</td>
+        <td>Historia</td>
+        <td>Ciencias</td>
+        <td>Matemáticas</td>
+        <td id="viernes">Lengua</td>
+    </tr>
+    <tr>
+        <td>10:00</td>
+        <th colspan="5" id="recreo">RECREO</th>
+    </tr>
+    <tr>
+        <td>10:30</td>
+        <td>Inglés</td>
+        <td rowspan="2">Ciencias</td>
+        <td>Matemáticas</td>
+        <td>Lengua</td>
+        <td id="viernes">Historia</td>
+    </tr>
+    <tr>
+        <td>11:30</td>
+        <td>Historia</td>
+        <td>Ciencias</td>
+        <td>Matemáticas</td>
+        <td id="viernes">Inglés</td>
+    </tr>
+    </tbody>
+</table>
+
+<form>
+    <p>
+        <label for="destino">Email</label>
+        <input name="destino" placeholder="Inserte email del destinario" required type="email"/>
+    </p>
+    <input type="button" value="Enviar Horario"/>
+</form>
+</body>
+
+</html>

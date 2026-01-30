@@ -1,0 +1,157 @@
+#RECREO{
+    text-align: center;
+    text-decoration: double;
+}
+th{
+    padding: 10px;
+    text-align: justify;
+}
+td{
+    text-align: center;
+}
+header img {
+    width: 100%;
+    height: 100px;
+}
+table{
+    border-spacing: 0cm;
+}
+/*Base para todos los enlaces*/
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: white;
+}
+ 
+a:visited {
+	color: pink;
+}
+
+a:active { color: blue; } /*el link del footer se pone azul al hacer click*/
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Para que quede encima del contenido */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
+	
+	display: flex;                /* ⬅ activa flex */
+    justify-content: space-evenly; /* ⬅ reparte los botones */
+    align-items: center;          /* ⬅ centra verticalmente */
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li ul{
+    display: none;            /* Oculto por defecto */
+    position: absolute;
+    top: 100%;                /* Justo debajo del li padre */
+    left: 0;
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+    min-width: 200px;         /* Ancho mínimo para las opciones */
+    z-index: 1000;
+}
+
+nav ul li ul li {
+    display: block;           /* Cada opción del submenú en una línea */
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+
+    background: linear-gradient(#777, #555);              /* fondo sutil para cada botón */
+    border-radius: 12px;                 /* redondeo */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* sombra suave */
+    transition: 0.3s ease;               /* animación */
+}
+nav ul li a:hover {
+    background-color: #FFA500;           /* tu naranja del menú */
+    color: #000;                         /* opcional: texto oscuro para contraste */
+    transform: translateY(-2px);         /* efecto “flotar” */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35); /* sombra más fuerte */
+}
+
+nav ul li a:active {
+    color: yellow; /*Se ponen las letras amarillas cuando hago click*/
+}
+
+nav ul li:hover > ul {
+    display: block;           /* Mostrar el submenú al pasar el ratón */
+}
+
+nav ul li ul li a {
+    padding: 10px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4b8a20;
+    margin: 0;
+    padding: 0;
+}
+#contenedor {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#contenido {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+main {
+   background-color: #fff0f6;
+}
+
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    border-left: 4px solid #ff0000;
+    padding: 15px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.recomendacion {
+    background-color: #e7123a;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+footer .subir {
+    color: white;
+    text-decoration: none;
+}
+footer .subir::after {
+	content: " ▲"; /*Dejo un espacio para que no se quede pegado a las letras*/
+	font-size: 16px; /*Tamaño del triángulo*/
+}
+footer p {
+    margin-top: 50px; /* Espacio adicional en la parte superior */
+    font-size: 0.7em; /* 1 em = el tamaño de fuente del elemento padre.*/
+    color: #bbb; /* Color más tenue para el texto, gris claro por ejemplo */
+}

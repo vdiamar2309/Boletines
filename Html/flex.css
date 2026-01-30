@@ -1,0 +1,9 @@
+.contenedor{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.caja{
+background: lightblue; 
+padding: 20px;
+}
