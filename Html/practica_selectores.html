@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica de selectores CSS</title>
+    <link href="practica_selectores.css" rel="stylesheet">
+</head>
+<body>
+<h1>Práctica de selectores en CSS</h1>
+
+<!-- SELECTOR DE ID -->
+<p id="mi_Id">
+    Este párrafo tiene el id <strong>mi_Id</strong>.
+</p>
+
+<!-- SELECTOR DE CLASE -->
+<p class="mi_clase">
+    Este párrafo tiene la clase <strong>mi_clase</strong>.
+</p>
+<p class="mi_clase">
+    Otro párrafo con la misma clase <strong>mi_clase</strong>.
+</p>
+
+<!-- SELECTOR DE ELEMENTO / TIPO (por ejemplo, p, h2, li...) -->
+<p>
+    Este párrafo no tiene clase ni id: perfecto para el selector de tipo <code>p</code>.
+</p>
+
+<!-- SELECTOR DE GRUPO (ej: h2, h3, .mi_clase) -->
+<h2>Encabezado nivel 2</h2>
+<h3>Encabezado nivel 3</h3>
+
+<!-- SELECTOR DESCENDIENTE: selector1 selector2 (ej: .contenedor p) -->
+<section class="contenedor">
+    <h2>Sección principal</h2>
+    <p>Este párrafo es descendiente de <code>.contenedor</code>.</p>
+    <div>
+        <p>Este también es descendiente de <code>.contenedor</code> (nieto).</p>
+    </div>
+</section>
+
+<!-- SELECTOR DE HIJO DIRECTO: etiqueta1 > etiqueta2 (ej: .lista > li) -->
+<ul class="lista">
+    <li>Elemento hijo directo 1 (li de .lista)</li>
+    <li>Elemento hijo directo 2 (li de .lista)</li>
+    <li>
+        Elemento con un <span>span nieto dentro del li</span>
+    </li>
+</ul>
+
+<!-- SELECTOR DE HERMANO ADYACENTE: etiqueta1 + etiqueta2 (ej: h2 + p) -->
+<!-- SELECTOR DE HERMANO GENERAL: etiqueta1 ~ etiqueta2 (ej: h2 ~ p) -->
+<h2 id="titulo-hermanos">Título para practicar hermanos</h2>
+<p class="hermano">
+    Este párrafo es hermano ADYACENTE de <code>h2</code> (va justo después).
+</p>
+<p class="hermano">
+    Este párrafo es hermano GENERAL de <code>h2</code> (también va después, pero no es el primero).
+</p>
+<div>Otro elemento entre medias</div>
+<p class="hermano">
+    Otro párrafo hermano GENERAL de <code>h2</code>.
+</p>
+
+<!-- SELECTOR DE ATRIBUTO: input[type="text"] -->
+<form>
+    <h2>Formulario de prueba</h2>
+    <label>
+        Nombre (type="text"):
+        <input name="nombre" placeholder="Escribe tu nombre" type="text">
+    </label>
+    <br><br>
+    <label>
+        Edad (type="number"):
+        <input max="120" min="0" name="edad" type="number">
+    </label>
+    <br><br>
+    <label>
+        Buscar (type="search"):
+        <input name="busqueda" placeholder="Buscar..." type="search">
+    </label>
+</form>
+</body>
+</html>

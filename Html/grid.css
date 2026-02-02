@@ -1,0 +1,11 @@
+.contenedor { 
+display: grid; 
+grid-template-columns: repeat(3, 1fr); 
+gap: 10px; }
+
+.caja { 
+background: lightcoral; 
+padding: 20px; 
+text-align: center; 
+border-radius: 8px; 
+}
