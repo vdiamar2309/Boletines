@@ -12,6 +12,8 @@
     </clientes>
     <viaje>
         <origen>Isla Cristina</origen>
+        <fechainicio>02-02-2026</fechainicio>
+        <fechafin>10-01-2026</fechafin>
         <destino>
             <nombreciudad>Huelva</nombreciudad>
             <hotel>Hotel Costa de Luz</hotel>
