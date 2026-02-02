@@ -10,6 +10,7 @@
             <apellido>Joao</apellido>
         </persona>
     </clientes>
+    <viajes>
     <viaje>
         <origen>Isla Cristina</origen>
         <fechainicio>02-02-2026</fechainicio>
@@ -27,5 +28,6 @@
             <precio>80€</precio>
         </destino>
         <preciototal>200€</preciototal>
-    </viaje>
+        </viaje>
+    </viajes>
 </viajeturistico>
