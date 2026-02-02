@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viajeturistico>
+    <clientes>
+        <persona>
+            <nombre>Victor</nombre>
+            <apellido>Diaz</apellido>
+        </persona>
+    </clientes>
+    <viaje>
+        <origen>Isla Cristina</origen>
+        <destino>
+            <nombreciudad>Huelva</nombreciudad>
+            <hotel>Hotel Costa de Luz</hotel>
+            <noches>8</noches>
+        </destino>
+        <precio>120€</precio>
+    </viaje>
+</viajeturistico>
