@@ -24,5 +24,6 @@
             <noches>1</noches>
             <precio>80€</precio>
         </destino>
+        <preciototal>200€</preciototal>
     </viaje>
 </viajeturistico>
