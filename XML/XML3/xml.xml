@@ -5,6 +5,10 @@
             <nombre>Victor</nombre>
             <apellido>Diaz</apellido>
         </persona>
+        <persona>
+            <nombre>Sonia</nombre>
+            <apellido>Joao</apellido>
+        </persona>
     </clientes>
     <viaje>
         <origen>Isla Cristina</origen>
@@ -12,7 +16,13 @@
             <nombreciudad>Huelva</nombreciudad>
             <hotel>Hotel Costa de Luz</hotel>
             <noches>8</noches>
+            <precio>120€</precio>
         </destino>
-        <precio>120€</precio>
+        <destino>
+            <nombreciudad>Isla Cristina</nombreciudad>
+            <hotel>Barcelo </hotel>
+            <noches>1</noches>
+            <precio>80€</precio>
+        </destino>
     </viaje>
 </viajeturistico>
