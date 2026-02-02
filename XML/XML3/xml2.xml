@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <viajeturistico>
     <clientes>
-        <persona>
-            <nombre>Victor</nombre>
-            <apellido>Diaz</apellido>
-        </persona>
+        <persona nombre="Victor" apellido="Diaz" />
         <persona nombre="Ana" apellido="Dominguez"></persona>
         <persona nombre="Javier" apellido="Garrocho"></persona>
-        <persona>
-            <nombre>Sonia</nombre>
-            <apellido>Joao</apellido>
-        </persona>
     </clientes>
     <viajes>
     <viaje>
         <origen>Isla Cristina</origen>
         <fechainicio>02-02-2026</fechainicio>
         <fechafin>10-01-2026</fechafin>
-        <destino>
-            <nombreciudad>Huelva</nombreciudad>
-            <hotel>Hotel Costa de Luz</hotel>
-            <noches>8</noches>
-            <precio>120€</precio>
-        </destino>
+        <destino nombreciudad="Isla Cristina" hotel="Hotel Costa Luz" noches="8" precio="120€"/>
         <destino>
             <nombreciudad>Isla Cristina</nombreciudad>
             <hotel>Barcelo </hotel>
