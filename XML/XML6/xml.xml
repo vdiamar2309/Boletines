@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv [
+    <!ELEMENT cv (nombre,idiomas)>
+    <!ELEMENT nombres (#PCDATA)>
+    <!ELEMENT idiomas (idioma*)>
+    <!ELEMENT idioma (#PCDATA)>
+    <!ATTLIST idioma nivel (bajo | medio | alto ) "medio">
+    ]>
+<cv>
+    <nombre>Desmond Miles</nombre>
+    <categoria>Senior</categoria>
+    <idiomas>
+        <idioma codigo="fr" nivel="bajo">Frances</idioma>
+        <idioma codigo="en">Ingles</idioma>
+        <idioma codigo="it">Italiano</idioma>
+    </idiomas>
+</cv>
