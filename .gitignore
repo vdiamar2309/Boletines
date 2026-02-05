@@ -11,6 +11,7 @@
 # Temporary files
 *.tmp
 *~
+*XML
 
 *.bak
 # Environment files (containing secrets, API keys, credentials)
