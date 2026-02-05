@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "DTD.dtd">
+<libro>
+    <titulo>Introducción a XML</titulo>
+    <autor>Juan Pérez</autor>
+    <anio>500</anio>
+</libro>
