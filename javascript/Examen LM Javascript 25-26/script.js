@@ -11,12 +11,19 @@ let titulo = document.getElementById(titulo);
 
 
 // CE.d
-addEventListener(array.forEach(textos => {}));
+addEventListener(array.forEach(Element => {}));
+addEventListener(array.forEach(Element => {}));
+
+
+
+
 
 
 if (textos==""){
     alert("No se puede dejar el texto en blanco")
-} 
+}
+
+
 
 
 // CE.e
@@ -32,4 +39,4 @@ if (textos==""){
 
 // CE.f
 
-c
+
