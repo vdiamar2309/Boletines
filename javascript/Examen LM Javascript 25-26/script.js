@@ -16,16 +16,8 @@ addEventListener(array.forEach(textos => {}));
 
 if (textos==""){
     alert("No se puede dejar el texto en blanco")
-    
 } 
 
-
-
-
-
-
-
-qu
 
 // CE.e
 
