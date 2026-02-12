@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE datos [
-    <!ELEMENT datos (#PCDATA)>
-    <!ELEMENT element-name (#PCDATA)>
-    <!ATTLIST receta dificultad (baja | media | alta ) facil>
-
-
-    >
-
-]>
+<?xml-model href="DTD.dtd" type="application/xml-dtd"?>
 <datos>
-
-
     <receta dificultad="facil">
         <nombre> Tarta de Manzana</nombre>
         <ingredientes>
@@ -19,9 +9,7 @@
             <ingrediente cantidad="3" unidad="gramos">Azucar</ingrediente>
             <ingrediente cantidad="3" unidad="cucharadita">Canela</ingrediente>
         </ingredientes>
-        <instrucciones></instrucciones>
-
-
+        <instrucciones> Bla bla bla</instrucciones>
     </receta>
 
 
