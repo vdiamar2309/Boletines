@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos [
+    <!ELEMENT datos (#PCDATA)>
+    <!ELEMENT element-name (#PCDATA)>
+    <!ATTLIST receta dificultad (baja | media | alta ) facil>
+
+
+    >
+
+]>
+<datos>
+
+
+    <receta dificultad="facil">
+        <nombre> Tarta de Manzana</nombre>
+        <ingredientes>
+            <ingrediente cantidad="3" unidad="manzanas">"Manzana"</ingrediente>
+            <ingrediente cantidad="200" unidad="gramos">Harina</ingrediente>
+            <ingrediente cantidad="3" unidad="gramos">Azucar</ingrediente>
+            <ingrediente cantidad="3" unidad="cucharadita">Canela</ingrediente>
+        </ingredientes>
+        <instrucciones></instrucciones>
+
+
+    </receta>
+
+
+</datos>
