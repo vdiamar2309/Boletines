@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="DTD.dtd" type="application/xml-dtd"?>
 <datos>
-    <receta dificultad="facil">
+    <receta dificultad="media">
         <nombre> Tarta de Manzana</nombre>
         <ingredientes>
             <ingrediente cantidad="3" unidad="manzanas">"Manzana"</ingrediente>
