@@ -4,7 +4,7 @@
 <!ELEMENT flor (#PCDATA)>
 ]>
 <!-- 
-Se ha añadido un atributo flor ya que el DDT pedía que haya como minimo 1
+Se ha añadido un atributo flor ya que el DTD pedía que haya como minimo 1
 
 otra posible solución es
 
