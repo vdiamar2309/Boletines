@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numeros [
+<!-- Corrección 
+ <!DOCTYPE numeros [
+<!ELEMENT numeros (#PCDATA)>
+]>
+-->
+<!ELEMENT numeros (numero+)>
+<!ELEMENT numero (#PCDATA)>
+]>
+<numeros>
+<numero>25</numero>
+<numero>29</numero>
+</numeros>

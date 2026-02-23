@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flores [
+<!ELEMENT flores (flor+)>
+<!ELEMENT flor (#PCDATA)>
+]>
+<!-- 
+Se ha añadido un atributo flor ya que el DDT pedía que haya como minimo 1
+
+otra posible solución es
+
+    Cambiar + por ? que significa 0 o 1
+
+    3 <!ELEMENT flores (flor?)>
+    4 <!ELEMENT flor (#PCDATA)>
+    5 ]>
+    
+    Cambiar por * que significa 0 o varios
+    
+    3 <!ELEMENT flores (flor*)>
+    4 <!ELEMENT flor (#PCDATA)>
+    5 ]>
+-->
+<flores>
+    <flor>Rosa</flor>
+</flores>

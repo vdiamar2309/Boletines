@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colores [
+    <!ELEMENT colores (color+)>
+    <!ELEMENT color (#PCDATA)>
+]>
+<!-- 
+Negro no estaba entre el atributo color
+Tambien se ha cambiado de color* a color+ para que como minimo deba haber un atributo en colores
+* significa que puede haber o ningún color o puede haber varios 
++ significa que puede haber uno o muchos colores
+
+
+color? Opcional como máximo uno o sea puede haber o 0 colores o 1
+color Solo 1
+
+
+// Antes
+
+     2  <!DOCTYPE colores [
+     3      <!ELEMENT colores (color*)>
+     4      <!ELEMENT color (#PCDATA)>
+     5  ]>
+    31  <colores>
+    32  <color>azul marino</color>
+    33  negro
+    34  <color>amarillo</color>
+    35  </colores>
+
+// Despues
+-->
+<colores>
+<color>azul marino</color>
+<color>negro</color>
+<color>amarillo</color>
+</colores>

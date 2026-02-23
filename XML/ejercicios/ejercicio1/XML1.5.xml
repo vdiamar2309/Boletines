@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animales [
+<!ELEMENT animales (perro,gato)>
+<!ELEMENT perro (#PCDATA)>
+<!ELEMENT gato (#PCDATA)>
+]>
+
+<!-- 
+    
+    Al poner esto indicas que animales debe indicar animal
+    y el texto ponía razas de gatos y perro 
+
+     2  <!DOCTYPE animales [
+     3  <!ELEMENT animales (animal*)>
+     4  <!ELEMENT animal (#PCDATA)>
+     5  ]>
+
+     15  <animales>
+     16  <perro>Caniche</perro>
+     17  <gato>Siamés</gato>
+     18  </animales>
+
+    Por lo cual una de las soluciones que le puedes aplicar sin cambiar el xml es este
+    
+    Al poner esto indicas que SOLO puede haber perro y gato de atributo y no otro tipo de animales
+
+     2  <!DOCTYPE animales [
+     3  <!ELEMENT animales (perro,gato)>
+     4  <!ELEMENT perro (#PCDATA)>
+     5  <!ELEMENT gato (#PCDATA)>
+     6  ]>
+
+
+
+-->
+
+<animales>
+<perro>Caniche</perro>
+<gato>Siamés</gato>
+</animales>
