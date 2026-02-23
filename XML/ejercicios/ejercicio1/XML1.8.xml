@@ -6,15 +6,29 @@
 <!ELEMENT telefonoFijo (#PCDATA)>
 <!ELEMENT telefonoMovil (#PCDATA)>
 ]>
+
+<!--
+    1er fallo
+    Faltaba el telefono movil ya que es requerido     
+
+    se ha añadido una linea en la 26
+
+    2º fallo
+    orden de Telefono movil
+
+    Se debe poner después de los teléfonos fijos
+ 
+ -->
 <agenda>
 <contacto>
 <nombre>Ayuntamiento</nombre>
 <telefonoFijo>010</telefonoFijo>
+<telefonoMovil>Desconocido</telefonoMovil>
 </contacto>
 <contacto>
 <nombre>Emergencias</nombre>
 <telefonoFijo>112 (Unión Europea)</telefonoFijo>
-<telefonoMovil>Desconocido</telefonoMovil>
 <telefonoFijo>911 (Estados Unidos)</telefonoFijo>
+<telefonoMovil>Desconocido</telefonoMovil>
 </contacto>
 </agenda>
